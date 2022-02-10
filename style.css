@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600&family=Pacifico&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+
+
+.attribution { 
+font-size: 11px; 
+text-align: center; 
+}
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
+
+body{
+    background-color:hsl(217, 54%, 11%);
+}
+
+#NFT{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+
+}
+.card{
+    width: 290px;
+    height: 520px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow:5px 5px 15px rgb(0, 0, 0);
+}
+
+.card h1{
+    color:hsl(0, 0%, 100%);
+    font-family:Outfit;
+    font-size:20px;
+    font-weight:600;
+}
+
+.container,.price,.time{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    box-sizing: border-box;
+    padding-right:20px;
+    justify-content: space-between;
+}
+
+.content p{
+    font-family: Outfit;
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.content{
+    margin-left:20px;
+}
+
+.container img{
+    width:15px;
+    height:15px;
+    margin-right:5px;
+
+}
+
+.container h2{
+    color:hsl(178, 100%, 50%);
+    font-family:Outfit;
+    font-size:15px;
+    font-weight: 600;
+}
+.about{
+    display: flex;
+    
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color:hsl(215, 32%, 27%);
+}
+
+.about img{
+    width:30px;
+    height: 30px;
+    margin:10px 10px;
+}
+
+.about p{
+    font-family: Outfit;
+    font-weight: 200;
+    color:hsl(215, 51%, 70%);
+
+}
+
+#name{
+    color:hsl(0, 0%, 100%);
+    margin-left:5px;
+}
+
+.card h1:hover,#name:hover{
+    color:hsl(178, 100%, 50%);
+    transition: color 1s;
+}
